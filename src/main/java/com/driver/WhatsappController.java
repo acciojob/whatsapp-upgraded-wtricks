@@ -71,7 +71,7 @@ public class WhatsappController {
     }
 
     @DeleteMapping("/remove-user")
-    public int removeUser(User user) throws Exception{
+    public int removeUser(User user) throws Exception {
         //A user belongs to exactly one group
         //If user is not found in any group, throw "User not found" exception
         //If user is found in a group and it is the admin, throw "Cannot remove admin" exception
