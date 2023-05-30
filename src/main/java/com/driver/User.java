@@ -4,15 +4,9 @@ public class User {
     private String name;
     private String mobile;
 
-    public User() {}
-
     public User(String name, String mobile) {
         this.name = name;
         this.mobile = mobile;
-    }
-
-    public String getMobile() {
-        return mobile;
     }
 
     public String getName() {
@@ -21,6 +15,10 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getMobile() {
+        return mobile;
     }
 
     public void setMobile(String mobile) {
