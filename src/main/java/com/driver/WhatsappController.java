@@ -35,7 +35,6 @@ public class WhatsappController {
         }
 
     }
-
     @PostMapping("/add-group")
     public Group createGroup(@RequestBody List<User> users){
         // The list contains at least 2 users where the first user is the admin. A group has exactly one admin.

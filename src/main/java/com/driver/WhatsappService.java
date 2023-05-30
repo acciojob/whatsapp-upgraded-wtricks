@@ -7,6 +7,7 @@ import java.util.List;
 
 @Service
 public class WhatsappService {
+
     WhatsappRepository whatsappRepository=new WhatsappRepository();
 
     public void createUser(String name,String mobile) throws Exception {

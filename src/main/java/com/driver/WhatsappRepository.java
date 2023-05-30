@@ -6,7 +6,6 @@ import java.util.*;
 
 @Repository
 public class WhatsappRepository {
-
     private int groupCount=0;
 
     private int messageCount=0;
